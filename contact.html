@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Página principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index2.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary ">
+    <!-- Navigation -->
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Segunda página</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tercera página</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="bg-image" style=" background-image: url(https://w0.peakpx.com/wallpaper/163/338/HD-wallpaper-top-full-nature-full-for-pc-deskto-fondos-de-pantalla-naturaleza-hermosos-fondos-de-pantalla-fondo-de-pantalla-tropical-1600x900-nature.jpg);
+ height: 80vh; max-width: 90%; margin: 0 auto; padding: 10px; background-size: 100%;">
+    <div class="bg-head  d-inline-block w-100 p-4">
+      <h1 class="display-1">Bienvenido! o algún tipo de saludo...</h1>
+
+    </div>
+    <div class="p-5">
+      <p>Algo más sobre mí. Una pequeña biografía aquí</p>
+      <p>Algo más de contenido sobre mí. P.S. Échale un vistazo a la galería</p>
+
+      <a class="button btn btn-primary" href="gallery.html">Mi galería</a>
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Debes envolver el contenido en un jumbotron haciendo uso de las clases correspondientes -->
+  <form  style="max-width: 80%; margin: 0 auto;">
+    <div class="form-group row p-2">
+      <label for="name" class="col-4 col-form-label">Nombre</label>
+      <div class="col-8">
+        <input id="name" name="name" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-group row p-2">
+      <label for="mail" class="col-4 col-form-label">Correo</label>
+      <div class="col-8">
+        <input id="mail" name="mail" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-group row p-2">
+      <label for="asunto" class="col-4 col-form-label">Asunto</label>
+      <div class="col-8">
+        <input id="asunto" name="asunto" type="text" class="form-control">
+      </div>
+    </div>
+    <div class="form-group row p-2">
+      <label for="msg" class="col-4 col-form-label">Mensaje</label>
+      <div class="col-8">
+        <textarea id="msg" name="msg" cols="40" rows="5" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="form-group row p-2">
+      <div class="offset-4 col-8">
+        <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+  <!-- end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
